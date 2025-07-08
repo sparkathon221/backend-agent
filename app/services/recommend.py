@@ -1,4 +1,5 @@
 # services/recommend.py
+
 import faiss
 import pickle
 import pandas as pd
@@ -30,5 +31,9 @@ class Recommender:
         query_vector = self.embed_text(query)
         D, I = self.index.search(query_vector, top_k)
         matched_ids = [self.id_map[i] for i in I[0]]
-        results = self.df[self.df['product_id'].isin(matched_ids)].to_dict(orient='records')
+        results = (
+            self.df[self.df['product_id'].isin(matched_ids)]
+            .fillna("")
+            .to_dict(orient='records')
+        )
         return results
