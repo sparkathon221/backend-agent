@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Query
 from pydantic import BaseModel
-from app.services.recommend import Recommender
+from services.recommend import Recommender
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
