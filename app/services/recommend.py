@@ -36,4 +36,8 @@ class Recommender:
             .fillna("")
             .to_dict(orient='records')
         )
+<<<<<<< HEAD
         return results
+=======
+        return results
+>>>>>>> ea1e53c0df88323b48ccbe1766eda8f7017cabc9
