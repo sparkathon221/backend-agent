@@ -11,7 +11,7 @@ def merge_data():
             try:
                 df = pd.read_csv(file_path)
                 if df.shape[0] > 0:
-                    sample_df = df.head(1000)
+                    sample_df = df.head(100)
                     merged_df = pd.concat([merged_df, sample_df], ignore_index=True)
             except Exception as e:
                 print(f"Error reading {filename}: {e}")

@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 import uvicorn
 import time
-from services.agents.crew_manager import CrewManager
+from .services.agents.crew_manager import CrewManager
 
 app = FastAPI(
     title="Product Recommendation",
