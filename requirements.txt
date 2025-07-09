@@ -3,3 +3,5 @@ faiss-cpu
 sentence-transformers
 fastapi
 uvicorn
+crewai
+python-multipart
