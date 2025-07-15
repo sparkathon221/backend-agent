@@ -64,10 +64,12 @@ POST /agent/query
 Use the `agent/query` endpoint to send user questions and receive intelligent product guidance. 
 
 --- 
-## 📦 Deployment 
+
 Use any cloud host or containerize with Docker: 
 ```bash 
 uvicorn app.main:app --host 0.0.0.0 --port 8000 
 ```
-
+## Demo
+---
+https://github.com/user-attachments/assets/e096a1df-19f6-4191-b4f9-fdc9b49cd1a8
 --- 
