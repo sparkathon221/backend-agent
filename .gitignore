@@ -4,5 +4,6 @@ __pycache__/
 *.pyc
 *.zip
 data/raw
-# data/vectorstores
+.DS_Store
 .env
+.vercel

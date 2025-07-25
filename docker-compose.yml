@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  backend-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - HF_TOKEN=${HF_TOKEN}  # or hardcode it: HF_TOKEN=your_api_key_here
+    working_dir: /app/backend-agent
