@@ -1,6 +1,6 @@
 
 
-# 🛍️ AI Shopping Assistant Backend 
+# 🛍️ BUYCEPS
 
 An intelligent product recommendation system that combines computer vision and natural language processing to provide personalized shopping experiences. The system processes both text queries and product images to deliver highly relevant product suggestions.
 
