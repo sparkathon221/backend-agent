@@ -70,5 +70,5 @@ Use any cloud host or containerize with Docker:
 uvicorn app.main:app --host 0.0.0.0 --port 8000 
 ```
 ## Demo
-https://github.com/user-attachments/assets/e096a1df-19f6-4191-b4f9-fdc9b49cd1a8
+https://github.com/user-attachments/assets/8d91a6f0-0c99-4a98-ae92-3889d4285dd1
 
